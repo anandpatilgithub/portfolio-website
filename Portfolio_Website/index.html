@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presonal Website</title>
+    <link rel="stylesheet"type="text/css" href="./style_portfolio.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <script src="https://kit.fontawesome.com/307a8342e4.js" crossorigin="anonymous"></script>
+    
+</head>
+    <body>
+        <div id="header">
+          <div class="container">
+            <nav>
+                <img src="./image/Ah2.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                     <i class="fas fa-regular fa-circle-xmark" onclick="closemenu() "></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB/UI Designer</p>
+                <h1>Hi, I'm <span class="span"> Anand<br> Hyalij</span> From Nashik</h1>
+            </div>
+          </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./image/Anand1.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>To work efficiently as well as grow with a prestigious organization that provides a challenging
+                            and innovative environment where my skill and talent can be enhanced & aimed towards achieving futuristic goals.
+                            I hereby declare that the above-mentioned information is correct to best of my knowledge and
+                            I bear the responsibility for the correctness of the above-mentioned particulars..</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web App Development</li>
+                                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                                </ul>
+                            </div>
+                             <div class="tab-contents" id="expirience">
+                                <ul>
+                                    <li><span>2022 - Current</span><br>Website Disgning And Devlopment</li>
+                                    <li><span>2017-2021</span><br>Bachelar Of Computer Application</li>
+                                    <li><span>2016-2017</span><br>I'M Completed My HSC</li>
+                                </ul>
+                            </div>
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022 - Current</span><br>Master Of Computer Studing</li>
+                                    <li><span>2017-2021</span><br>Bachelar Of Computer Application</li>
+                                    <li><span>2016-2017</span><br>I'M Completed My HSC</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  ---------------------Services --------------------------- -->
+        <!-- <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>To work efficiently as well as grow with a prestigious organization that provides a challenging
+                             and innovative environment where my skill and talent can be enhanced & aimed towards achieving futuristic goals.</p>
+                             <a href="#">learn More</a>
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div> -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>To work efficiently as well as grow with a prestigious organization that provides a challenging
+                            and innovative environment where my skill and talent can be enhanced & aimed towards achieving futuristic goals.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>WEB/UI Design</h2>
+                        <p>To work efficiently as well as grow with a prestigious organization that provides a challenging
+                            and innovative environment where my skill and talent can be enhanced & aimed towards achieving futuristic goals.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-apple"></i>
+                        <h2>App Design</h2>
+                        <p>To work efficiently as well as grow with a prestigious organization that provides a challenging
+                            and innovative environment where my skill and talent can be enhanced & aimed towards achieving futuristic goals.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!-- ------------------Portfolio--------------------------- -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/social media app.jpg" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>The app connect you yo the talented people around the world. Download it from play store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/music app.jpg" alt="">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>The app connect you yo the talented people around the world. Download it from play store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/onlie shoping website.jpg" alt="">
+                            <div class="layer">
+                                <h3>Online Shopping App</h3>
+                                <p>The app connect you yo the talented people around the world. Download it from play store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!-- -----------------#################### contact ##############---------------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>anandhyalij@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>8552030385</p>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="/Portfolio_Website/image/Anand Resume.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="text" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright @ Anand..<i class="fa-solid fa-heart"></i> </p>
+                </div>
+            </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu  = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxHKs7M9NxKCNMq5C3bMjQK10uV2kbJXhiPooSo8403FvfHR4SbxXyKDuIrIZcPebAf/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
